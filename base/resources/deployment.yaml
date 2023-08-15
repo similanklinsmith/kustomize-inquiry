@@ -47,10 +47,10 @@ spec:
           resources:
             limits:
               cpu: 600m
-              memory: 256Mi
+              memory: 512Mi
             requests:
               cpu: 200m
-              memory: 128Mi
+              memory: 256Mi
       volumes:
         - name: deep-user-inquiry-secret-file
           secret:
