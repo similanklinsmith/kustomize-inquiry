@@ -46,11 +46,11 @@ spec:
             initialDelaySeconds: 10
           resources:
             limits:
-              cpu: 1024m
-              memory: 512Mi
+              cpu: 600m
+              memory: 640Mi
             requests:
-              cpu: 512m
-              memory: 512Mi
+              cpu: 200m
+              memory: 640Mi
       volumes:
         - name: deep-user-inquiry-secret-file
           secret:
